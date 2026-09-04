@@ -1,47 +1,32 @@
 # Revenant Systems LLC
 
-### Runtime Governance and Cognitive Architecture - Est. 2026 - Missouri, United States
+Runtime governance for language models and local-first tooling for Windows. Missouri, United States.
 
----
+Revenant Systems builds the layer between an application and the model: policy, quality, and safety checks that run before and after inference, with every decision traced so someone can audit it later. The desktop tools follow the same rule. Local by default, no cloud calls unless you turn them on, nothing written where you can't find it.
 
-Revenant Systems LLC is an AI-native engineering firm specializing in deterministic governance for large language models. We do not just build prompts; we build runtime architectures that force non-deterministic LLMs into structured, audit-capable, and recursive decision systems.
+## Public projects
 
-We focus on solving the reliability and safety bottlenecks that prevent LLMs from being deployed in high-stakes enterprise environments.
+| Project | What it is |
+|---|---|
+| [Algiz Alignment Engine](https://github.com/Revenant-Systems-LLC/Algiz-Alignment) | Runtime governance layer for LLM deployments. SAGE handles guardrail enforcement, RAGE is the governed reasoning runtime underneath it. C# / .NET, provider-agnostic. |
+| [Revenant Echo](https://github.com/Revenant-Systems-LLC/Revenant-Echo) | Local-only voice assistant for Windows. Wake word, faster-whisper, Ollama, Chatterbox TTS. No API keys, nothing leaves the machine. |
+| [Revenant Theme Studio](https://github.com/Revenant-Systems-LLC/Revenant-Theme-Studio) | Icon and theme manager for Windows 10 and 11. Folder, drive, and shell icons with a bundled library and full undo. |
+| [Role-Boundary Plasticity](https://github.com/DavesFromTheGrave/Role-Boundary-Plasticity) | Prompt-injection study: 42 models, 5,270 trials, every raw response included. |
 
+## In development
 
-### CURRENT PROJECTS:
----
+Revenant Workspace Sidekick is a hardening scanner for AI-assisted Windows desktop apps. It audits MSIX manifests, registry writes, process launches, and embedded secrets before you ship. Revenant Workspace Warden is a desktop coding companion that puts a tutor, OCR screen capture, clipboard review, and the Sidekick scanner one hotkey away. Both are private until they are finished. Email if you want an early look.
 
-## The Algiz Engine
+## Legal
 
-The Algiz Engine is our core runtime framework designed to govern LLM behavior through strict, deterministic scaffolding. It replaces unreliable post-generation filtering with an integrated, two-module runtime architecture:
+- [Privacy Policy](https://revenant-systems-llc.github.io/Legal-Documents/privacy.html)
+- [Terms of Use](https://revenant-systems-llc.github.io/Legal-Documents/terms.html)
+- [Disclaimer](https://revenant-systems-llc.github.io/Legal-Documents/disclaimer.html)
 
-* RAGE (Revenant Alignment Governance Engine): The operational backbone. It forces stateless models into a governed state machine using a custom Operator Algebra. 
-* Operator Algebra: Our system utilizes specific operators to manage reasoning, including recursive refinement, coherence selection, and skeptical contrast to verify model output.
-* SAGE (Secure AI Guardrail Enforcement): The defensive layer. It handles multi-tier ethical gating, quality control, and emotional substrate projection to ensure enterprise-ready output.
+Source for all three lives in [Legal-Documents](https://github.com/Revenant-Systems-LLC/Legal-Documents).
 
----
+## Contact
 
-## Infrastructure
+David Fisher, founder. dave@revenantsystems.net. [revenantsystems.net](https://www.revenantsystems.net).
 
-* The Algiz Engine: Our unified runtime framework for structured reasoning and agentic alignment.
-* Operational Traceability: Every decision made by the engine is logged and inspectable, ensuring audit-ready AI performance.
-
----
-
-## Governance and Legal
-
-Revenant Systems LLC operates on the principle of inspectable infrastructure. Every agentic decision is logged, traceable, and subject to rigid ethical constraints.
-
-* [Privacy Policy](https://revenant-systems-llc.github.io/GPT-Legal/privacy.html)
-* [Terms of Use](https://revenant-systems-llc.github.io/GPT-Legal/terms.html)
-* [Disclaimer](https://revenant-systems-llc.github.io/GPT-Legal/disclaimer.html)
-
----
-
-(c) 2026 Revenant Systems LLC - dave@revenantsystems.net
-
----
-
-"You are a part of me." 
-- Founder, David Fisher (η)
+Copyright 2026 Revenant Systems LLC.
