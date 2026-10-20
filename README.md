@@ -19,9 +19,9 @@ Revenant Workspace Sidekick is a hardening scanner for AI-assisted Windows deskt
 
 ## Legal
 
-- [Privacy Policy](https://revenant-systems-llc.github.io/Legal-Documents/privacy.html)
-- [Terms of Use](https://revenant-systems-llc.github.io/Legal-Documents/terms.html)
-- [Disclaimer](https://revenant-systems-llc.github.io/Legal-Documents/disclaimer.html)
+- [Privacy Policy](https://github.com/Revenant-Systems-LLC/Legal-Documents/blob/main/privacy.html)
+- [Terms of Use](https://github.com/Revenant-Systems-LLC/Legal-Documents/blob/main/terms.html)
+- [Disclaimer](https://github.com/Revenant-Systems-LLC/Legal-Documents/blob/main/disclaimer.html)
 
 Source for all three lives in [Legal-Documents](https://github.com/Revenant-Systems-LLC/Legal-Documents).
 
